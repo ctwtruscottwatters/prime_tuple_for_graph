@@ -3,6 +3,8 @@
 HOW MANY PRIMES ARE IN EACH 1000 NUMBERS UP TO A MILLION?
 Charles Thomas Wallace Truscott
 
+Authored while sitting MIT Computational Thinking using Python  (MIT OCW 6.0001 and 6.0002) via edX.org
+
 """
 
 def return_primes():
