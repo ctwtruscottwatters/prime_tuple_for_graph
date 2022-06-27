@@ -23,9 +23,9 @@ def return_primes():
             if divisorFound == False:
                 count += 1
             divisorFound = False
-        print("high: {} count: {}".format(high, count))
+        print("There are {} prime numbers between {} and {}".format(count, high, high - 1000))
         count = 0
-    print(primes, len(primes))
+
 def main():
     return_primes()
     
@@ -66,6 +66,27 @@ high: 21002 count: 99
 high: 22002 count: 103
 high: 23002 count: 100
 high: 24002 count: 105
+
+There are 1000 prime numbers between 2 and -998
+There are 168 prime numbers between 1002 and 2
+There are 135 prime numbers between 2002 and 1002
+There are 128 prime numbers between 3002 and 2002
+There are 120 prime numbers between 4002 and 3002
+There are 118 prime numbers between 5002 and 4002
+There are 114 prime numbers between 6002 and 5002
+There are 118 prime numbers between 7002 and 6002
+There are 106 prime numbers between 8002 and 7002
+There are 111 prime numbers between 9002 and 8002
+There are 111 prime numbers between 10002 and 9002
+There are 106 prime numbers between 11002 and 10002
+There are 103 prime numbers between 12002 and 11002
+There are 110 prime numbers between 13002 and 12002
+There are 104 prime numbers between 14002 and 13002
+There are 102 prime numbers between 15002 and 14002
+There are 109 prime numbers between 16002 and 15002
+There are 97 prime numbers between 17002 and 16002
+
+
 
 """
 
